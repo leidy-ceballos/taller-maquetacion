@@ -1,0 +1,49 @@
+/* PATRONES GLOBALES DE CSS */
+
+/* Tipografía Principal */
+h1, h2, h3, a, button { font-family: 'Lucida Sans'; }
+
+/* Quitar margen por defecto varias etiquetas de HTML5 */
+body, h1, h2, h3, h4, h5, h6, p, figure, img { margin: 0; }
+
+
+/* CSS Propio */
+body {background:#fff  }
+
+
+/* Componente Header con Logo y Menú */
+header footer { width: 100%; }
+
+header article { margin-left: 31%; }
+
+header article .img_nav { padding-top: 20px; float: left; padding-left: 0px; }
+
+header article .img_nav a img { width: 128px;  }
+
+header article nav { background:#fff; overflow: hidden; padding: 50px 110px 50px 110px; }
+
+header article nav .button { font-family:'Lucida Sans'; font-size: 14px; text-decoration: none; color: rgb(83, 81, 81); padding: 7px;  }
+
+header article nav a.button:hover { background: #1a1c1d1a; font-size: 14px; font-family: 'Lucida Sans'; color:rgb(231, 28, 69);}
+
+header article nav .singup { font-family: 'Lucida Sans'; font-size: 11px; text-decoration: none; padding: 7px 10px 7px 10px; background-color: rgb(250, 81, 115); color: #fff; border-radius: 12%;}
+
+header article nav .singup:hover { font-family: 'Lucida Sans'; font-size: 11px; border-radius: 10%; background-color: rgb(231, 28, 69); color: #;}
+
+
+/* Componente Footer */
+
+footer { background: rgb(83, 81, 81); text-align: center; margin-top: 350px;}
+
+footer .img_footer { padding: 50px 0px 25px 0px;}
+
+footer .img_footer a img { width: 165px;}
+
+footer p { color: #fff; padding-bottom: 60px; clear: both; font-size: 14px; font-family: 'Lucida Sans';}
+
+
+
+
+
+
+
